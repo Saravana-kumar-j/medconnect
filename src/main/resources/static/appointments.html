@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Appointment Booking</h1>
+    
+    <!-- Book Appointment Form -->
+    <div class="form-container">
+        <h2>Book Appointment</h2>
+        <form id="bookAppointmentForm">
+            <input type="number" id="patientId" placeholder="Patient ID" required>
+            <input type="number" id="doctorId" placeholder="Doctor ID" required>
+            <input type="datetime-local" id="time" required>
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+
+    <script src="appointments.js"></script>
+</body>
+</html>

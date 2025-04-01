@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Doctor Management</h1>
+    
+    <!-- Add Doctor Form -->
+    <div class="form-container">
+        <h2>Add New Doctor</h2>
+        <form id="addDoctorForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="specialty" placeholder="Specialty" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <button type="submit">Add Doctor</button>
+        </form>
+    </div>
+
+    <!-- Search Doctors Form -->
+    <div class="form-container">
+        <h2>Search Doctors</h2>
+        <form id="searchDoctorsForm">
+            <input type="text" id="specialty" placeholder="Specialty">
+            <input type="text" id="location" placeholder="Location">
+            <button type="submit">Search</button>
+        </form>
+        <ul id="doctorsList"></ul>
+    </div>
+
+    <script src="doctor.js"></script>
+</body>
+</html>
