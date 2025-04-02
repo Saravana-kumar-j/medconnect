@@ -26,8 +26,11 @@ public class DoctorController {
     }
 
     @GetMapping("/search")
-    public List<Doctor> searchDoctors(@RequestParam String specialty, @RequestParam String location){
-        return doctorService.searchDoctors(specialty, location);
-    }
+public List<Doctor> searchDoctors(
+    @RequestParam(required = false) String specialty,
+    @RequestParam(required = false) String location) {
+    return doctorService.searchDoctors(specialty, location);
+}
+
     
 }

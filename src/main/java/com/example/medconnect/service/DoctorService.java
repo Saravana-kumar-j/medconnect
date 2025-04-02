@@ -16,7 +16,11 @@ public class DoctorService {
         return doctorRepository.save(doctor);
     }
 
-    public List<Doctor> searchDoctors(String specialty, String Location){
-        return doctorRepository.findBySpecialtyAndLocation(specialty, Location);
-    }
+    public List<Doctor> searchDoctors(String specialty, String location) {
+        return doctorRepository.findDoctors(
+            (specialty == null || specialty.trim().isEmpty()) ? null : specialty,
+            (location == null || location.trim().isEmpty()) ? null : location
+        );
+    }    
+    
 }

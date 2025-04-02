@@ -1,0 +1,5 @@
+Get http://localhost:8080/doctors/search?specialty=&location=madurai
+
+###
+
+GET http://localhost:8080/doctors/search?specialty=ortho
