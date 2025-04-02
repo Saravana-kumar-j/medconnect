@@ -76,11 +76,6 @@ The application will start on **`http://localhost:8080`**.
 
 ---
 
-
 ## 📜 License
 This project is licensed under the **MIT License**.
 
----
-
-## 📧 Contact
-For any issues, reach out at [your-email@example.com](mailto:saravanakumarj.net@gmail.com) or open a GitHub issue.
