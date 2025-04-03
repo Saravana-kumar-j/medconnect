@@ -1,6 +1,6 @@
 # MedConnect
 
-MedConnect is a **Spring Boot**-based healthcare management system that facilitates doctor-patient interactions, appointment scheduling, and medical record tracking. The application follows a **layered architecture** (Controller → Service → Repository) and integrates **Spring Security**, **Spring Data JPA**, and **Thymeleaf/Web UI**.
+MedConnect is a **Spring Boot**-based healthcare management system that facilitates doctor-patient interactions, appointment scheduling, and medical record tracking. The application follows a **layered architecture** (Controller → Service → Repository).
 
 ---
 
